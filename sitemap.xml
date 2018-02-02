@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>https://yyssjj33.github.io/posts/nlp-sequence-models-week1/</loc>
+    <lastmod>2018-02-02T00:24:08-08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yyssjj33.github.io/about/</loc>
     <lastmod>2018-02-01T20:57:00-08:00</lastmod>
   </url>
@@ -19,6 +24,12 @@
   
   <url>
     <loc>https://yyssjj33.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yyssjj33.github.io/categories/deeplearning/</loc>
+    <lastmod>2018-02-02T00:24:08-08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -36,7 +47,13 @@
   
   <url>
     <loc>https://yyssjj33.github.io/</loc>
-    <lastmod>2018-02-01T20:57:00-08:00</lastmod>
+    <lastmod>2018-02-02T00:24:08-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yyssjj33.github.io/categories/nlp/</loc>
+    <lastmod>2018-02-02T00:24:08-08:00</lastmod>
     <priority>0</priority>
   </url>
   
