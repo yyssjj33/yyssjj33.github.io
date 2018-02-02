@@ -6,6 +6,7 @@
     <description>Recent content in Frontend on Ji&#39;s place</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Copyright &amp;copy; 2018 - Ji Yang</copyright>
     <lastBuildDate>Thu, 01 Feb 2018 20:26:00 -0800</lastBuildDate>
     
 	<atom:link href="https://yyssjj33.github.io/categories/frontend/index.xml" rel="self" type="application/rss+xml" />
@@ -17,20 +18,13 @@
       <pubDate>Thu, 01 Feb 2018 20:26:00 -0800</pubDate>
       
       <guid>https://yyssjj33.github.io/posts/summary-of-recent-frontend-interview/</guid>
-      <description> Html &amp;amp; CSS  common layout
+      <description>Recent summary of frontend knowledge, referenced by this post
+Html &amp;amp; CSS  common layout
  BFC
  center a div
  session, cookie, localStorage, sessionStorage
  px/em/rem
- css animation/transition
- meta &amp;amp; media
-  JavaScript  data types
- closure
- CORS
- javascript inherent
- throttle and debounce
- event
-  </description>
+ css animation/transition</description>
     </item>
     
   </channel>
