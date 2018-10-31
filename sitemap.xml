@@ -8,8 +8,8 @@
   </url>
   
   <url>
-    <loc>https://yyssjj33.github.io/posts/nlp-sequence-models-week1/</loc>
-    <lastmod>2018-02-02T00:24:08-08:00</lastmod>
+    <loc>https://yyssjj33.github.io/posts/test3/</loc>
+    <lastmod>2018-02-01T21:43:14-08:00</lastmod>
   </url>
   
   <url>
@@ -18,7 +18,12 @@
   </url>
   
   <url>
-    <loc>https://yyssjj33.github.io/posts/summary-of-recent-frontend-interview/</loc>
+    <loc>https://yyssjj33.github.io/posts/test2/</loc>
+    <lastmod>2018-02-01T20:26:46-08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yyssjj33.github.io/posts/test/</loc>
     <lastmod>2018-02-01T20:26:00-08:00</lastmod>
   </url>
   
@@ -28,37 +33,38 @@
   </url>
   
   <url>
-    <loc>https://yyssjj33.github.io/categories/deeplearning/</loc>
-    <lastmod>2018-02-02T00:24:08-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yyssjj33.github.io/categories/frontend/</loc>
-    <lastmod>2018-02-01T20:26:00-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yyssjj33.github.io/categories/interview/</loc>
-    <lastmod>2018-02-01T20:26:00-08:00</lastmod>
+    <loc>https://yyssjj33.github.io/tags/java/</loc>
+    <lastmod>2018-02-01T21:43:14-08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://yyssjj33.github.io/</loc>
-    <lastmod>2018-02-02T00:24:08-08:00</lastmod>
+    <lastmod>2018-02-01T21:43:14-08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://yyssjj33.github.io/categories/nlp/</loc>
-    <lastmod>2018-02-02T00:24:08-08:00</lastmod>
+    <loc>https://yyssjj33.github.io/tags/nlp/</loc>
+    <lastmod>2018-02-01T21:43:14-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yyssjj33.github.io/tags/reactjs/</loc>
+    <lastmod>2018-02-01T20:26:46-08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://yyssjj33.github.io/tags/</loc>
+    <lastmod>2018-02-01T21:43:14-08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yyssjj33.github.io/categories/tech/</loc>
+    <lastmod>2018-02-01T20:26:46-08:00</lastmod>
     <priority>0</priority>
   </url>
   
