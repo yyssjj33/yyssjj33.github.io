@@ -6,10 +6,19 @@
     <description>Recent content on Ji&#39;s place</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Feb 2018 21:43:14 -0800</lastBuildDate>
+    <lastBuildDate>Tue, 30 Oct 2018 23:52:59 -0400</lastBuildDate>
     
 	<atom:link href="https://yyssjj33.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My First Post</title>
+      <link>https://yyssjj33.github.io/posts/my-first-post/</link>
+      <pubDate>Tue, 30 Oct 2018 23:52:59 -0400</pubDate>
+      
+      <guid>https://yyssjj33.github.io/posts/my-first-post/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Test3</title>
