@@ -3,18 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://yyssjj33.github.io/posts/</loc>
+    <loc>https://yyssjj33.github.io/coding/</loc>
     <lastmod>2018-02-01T21:11:33-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yyssjj33.github.io/posts/my-first-post/</loc>
-    <lastmod>2018-10-30T23:52:59-04:00</lastmod>
+    <loc>https://yyssjj33.github.io/cooking/</loc>
+    <lastmod>2018-10-01T21:11:33-08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://yyssjj33.github.io/posts/test3/</loc>
-    <lastmod>2018-02-01T21:43:14-08:00</lastmod>
+    <loc>https://yyssjj33.github.io/coding/27-remove-element/</loc>
+    <lastmod>2018-10-31T20:18:34-04:00</lastmod>
   </url>
   
   <url>
@@ -23,13 +23,9 @@
   </url>
   
   <url>
-    <loc>https://yyssjj33.github.io/posts/test2/</loc>
-    <lastmod>2018-02-01T20:26:46-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yyssjj33.github.io/posts/test/</loc>
-    <lastmod>2018-02-01T20:26:00-08:00</lastmod>
+    <loc>https://yyssjj33.github.io/tags/array/</loc>
+    <lastmod>2018-10-31T20:18:34-04:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -38,38 +34,26 @@
   </url>
   
   <url>
-    <loc>https://yyssjj33.github.io/tags/java/</loc>
-    <lastmod>2018-02-01T21:43:14-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://yyssjj33.github.io/</loc>
-    <lastmod>2018-10-30T23:52:59-04:00</lastmod>
+    <lastmod>2018-10-31T20:18:34-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://yyssjj33.github.io/tags/nlp/</loc>
-    <lastmod>2018-02-01T21:43:14-08:00</lastmod>
+    <loc>https://yyssjj33.github.io/categories/leetcode/</loc>
+    <lastmod>2018-10-31T20:18:34-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://yyssjj33.github.io/tags/reactjs/</loc>
-    <lastmod>2018-02-01T20:26:46-08:00</lastmod>
+    <loc>https://yyssjj33.github.io/tags/leetcode/</loc>
+    <lastmod>2018-10-31T20:18:34-04:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://yyssjj33.github.io/tags/</loc>
-    <lastmod>2018-02-01T21:43:14-08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://yyssjj33.github.io/categories/tech/</loc>
-    <lastmod>2018-02-01T20:26:46-08:00</lastmod>
+    <lastmod>2018-10-31T20:18:34-04:00</lastmod>
     <priority>0</priority>
   </url>
   
