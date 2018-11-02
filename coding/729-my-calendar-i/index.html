@@ -1,0 +1,298 @@
+<!doctype html>
+
+<html lang="en-us">
+
+<head>
+  <title>Ji&#39;s place</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="The HTML5 Herald" />
+  <meta name="author" content="Ji Yang" />
+  <meta name="generator" content="Hugo 0.37" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
+  <link rel="stylesheet" type="text/css" href="https://yyssjj33.github.io/css/styles.css" />
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-5304380032849115",
+    enable_page_level_ads: true
+  });
+</script>
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-113463619-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-113463619-1');
+</script>
+
+  <script type="application/ld+json">
+  {
+      "@context" : "http://schema.org",
+      "@type" : "BlogPosting",
+      "mainEntityOfPage": {
+           "@type": "WebPage",
+           "@id": "https://yyssjj33.github.io/"
+      },
+      "articleSection" : "coding",
+      "name" : "729-My Calendar I",
+      "headline" : "729-My Calendar I",
+      "description" : "Description Implement a MyCalendar class to store your events. A new event can be added if adding the event will not cause a double booking.
+Your class will have the method, book(int start, int end).",
+      "inLanguage" : "en-US",
+      "author" : "yyssjj33paddleyyyyangji1993Ji Yang",
+      "creator" : "yyssjj33paddleyyyyangji1993Ji Yang",
+      "publisher": "yyssjj33paddleyyyyangji1993Ji Yang",
+      "accountablePerson" : "yyssjj33paddleyyyyangji1993Ji Yang",
+      "copyrightHolder" : "yyssjj33paddleyyyyangji1993Ji Yang",
+      "copyrightYear" : "2018",
+      "datePublished": "2018-11-02 00:30:40 -0400 EDT",
+      "dateModified" : "2018-11-02 00:30:40 -0400 EDT",
+      "url" : "https://yyssjj33.github.io/coding/729-my-calendar-i/",
+      "wordCount" : "318",
+      "keywords" : [ "leetcode","tree","Blog" ]
+  }
+  </script>
+  
+</head>
+
+<body>
+  <div id="container">
+    <header>
+      <h1>
+                <a href="https://yyssjj33.github.io/">Ji&rsquo;s place</a>
+            </h1>
+
+      <ul id="social-media">
+         
+        <li><a href="https://www.linkedin.com/in/yangji1993"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+         
+        <li><a href="https://github.com/yyssjj33"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a></li>
+           
+        <li><a href="https://instagram.com/paddleyyy"><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></a></li>
+        
+      </ul>
+      
+      <p><em>Coding &amp;&amp; Cooking</em></p>
+      
+    </header>
+
+    
+<nav>
+    <ul>
+        
+        <li>
+            <a class="" href="https://yyssjj33.github.io/coding/">
+                <i class="fa-li fa  fa-lg"></i><span>Coding</span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="" href="https://yyssjj33.github.io/cooking/">
+                <i class="fa-li fa  fa-lg"></i><span>Cooking</span>
+            </a>
+        </li>
+        
+        <li>
+            <a class="" href="https://yyssjj33.github.io/about/">
+                <i class="fa-li fa  fa-lg"></i><span>About Me</span>
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+
+    <main>
+
+
+
+
+<article>
+
+    <h1>729-My Calendar I</h1>
+
+    
+        <aside>
+    <ul>
+        <li>
+            <time class="post-date" datetime="2018-11-02T00:30:40-04:00">Nov 2, 2018</time>
+        </li>
+        
+        
+        <li>
+            Categories: 
+            <em>
+                
+                    
+                    <a href="https://yyssjj33.github.io/categories/leetcode/">leetcode</a>
+                
+            </em>
+        </li>
+        
+
+        
+        <li>
+            <em>
+                
+                    
+                    <a href="https://yyssjj33.github.io/tags/leetcode/">#leetcode</a>
+                
+                    , 
+                    <a href="https://yyssjj33.github.io/tags/tree/">#tree</a>
+                
+            </em>
+        </li>
+        
+
+        <li>2 min read</li>
+    </ul>
+</aside>
+    
+
+    
+
+<h2 id="description">Description</h2>
+
+<p>Implement a <code>MyCalendar</code> class to store your events. A new event can be added if adding the event will not cause a double booking.</p>
+
+<p>Your class will have the method, <code>book(int start, int end)</code>. Formally, this represents a booking on the half open interval <code>[start, end)</code>, the range of real numbers <code>x</code> such that <code>start &lt;= x &lt; end</code>.</p>
+
+<p>A <em>double booking</em> happens when two events have some non-empty intersection (ie., there is some time that is common to both events.)</p>
+
+<p>For each call to the method MyCalendar.book, return true if the event can be added to the calendar successfully without causing a double booking. Otherwise, return false and do not add the event to the calendar.</p>
+
+<p>Your class will be called like this: <code>MyCalendar cal = new MyCalendar(); MyCalendar.book(start, end)</code></p>
+
+<p>Example 1:</p>
+
+<pre><code>MyCalendar();
+MyCalendar.book(10, 20); // returns true
+MyCalendar.book(15, 25); // returns false
+MyCalendar.book(20, 30); // returns true
+</code></pre>
+
+<p>Explanation:</p>
+
+<p>The first event can be booked.  The second can&rsquo;t because time 15 is already booked by another event.
+The third event can be booked, as the first event takes every time less than 20, but not including 20.</p>
+
+<p>Note:</p>
+
+<p>The number of calls to MyCalendar.book per test case will be at most 1000.
+In calls to MyCalendar.book(start, end), start and end are integers in the range [0, 10^9].</p>
+
+<h2 id="thoughts">Thoughts</h2>
+
+<p>The brute force way is to check every existing intervals when adding new one, which is slow. Another thoughts is to use a balanced binary tree structure that can quickly locate the position, for example, we can use <code>TreeMap</code></p>
+
+<h2 id="code">Code</h2>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">MyCalendar</span> <span style="color:#f92672">{</span>
+    TreeMap<span style="color:#f92672">&lt;</span>Integer<span style="color:#f92672">,</span> Integer<span style="color:#f92672">&gt;</span> calendar<span style="color:#f92672">;</span>
+
+    MyCalendar<span style="color:#f92672">()</span> <span style="color:#f92672">{</span>
+        calendar <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> TreeMap<span style="color:#f92672">();</span>
+    <span style="color:#f92672">}</span>
+
+    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">boolean</span> <span style="color:#a6e22e">book</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> start<span style="color:#f92672">,</span> <span style="color:#66d9ef">int</span> end<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
+        Integer prev <span style="color:#f92672">=</span> calendar<span style="color:#f92672">.</span><span style="color:#a6e22e">floorKey</span><span style="color:#f92672">(</span>start<span style="color:#f92672">),</span>
+                next <span style="color:#f92672">=</span> calendar<span style="color:#f92672">.</span><span style="color:#a6e22e">ceilingKey</span><span style="color:#f92672">(</span>start<span style="color:#f92672">);</span>
+        <span style="color:#66d9ef">if</span> <span style="color:#f92672">((</span>prev <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">||</span> calendar<span style="color:#f92672">.</span><span style="color:#a6e22e">get</span><span style="color:#f92672">(</span>prev<span style="color:#f92672">)</span> <span style="color:#f92672">&lt;=</span> start<span style="color:#f92672">)</span> <span style="color:#f92672">&amp;&amp;</span>
+                <span style="color:#f92672">(</span>next <span style="color:#f92672">==</span> <span style="color:#66d9ef">null</span> <span style="color:#f92672">||</span> end <span style="color:#f92672">&lt;=</span> next<span style="color:#f92672">))</span> <span style="color:#f92672">{</span>
+            calendar<span style="color:#f92672">.</span><span style="color:#a6e22e">put</span><span style="color:#f92672">(</span>start<span style="color:#f92672">,</span> end<span style="color:#f92672">);</span>
+            <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">true</span><span style="color:#f92672">;</span>
+        <span style="color:#f92672">}</span>
+        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">false</span><span style="color:#f92672">;</span>
+    <span style="color:#f92672">}</span>
+<span style="color:#f92672">}</span></code></pre></div>
+<h2 id="complexity">Complexity</h2>
+
+<p><code>book</code> method is <code>O(lgn)</code></p>
+
+
+</article>
+
+
+<section class="post-nav">
+    <ul>
+        
+        <li>
+            <a href="https://yyssjj33.github.io/coding/113-path-sum-ii/"><i class="fa fa-chevron-circle-left"></i> 113-Path Sum II</a>
+        </li>
+        
+        
+    </ul>
+</section>
+    
+        <section class="comments-block">
+      <button id="show-comments" style=""><i class="fa fa-comments-o"></i> Add/View Comments</button>
+</section>
+
+<section id="disqus_thread"></section>
+
+<script>
+      (function () {
+            
+            
+            if (window.location.hostname == "localhost")
+                  return;
+
+            var disqus_loaded = false;
+            var disqus_shortname = 'https-yyssjj33-github-io';
+            var disqus_button = document.getElementById("show-comments");
+
+            disqus_button.style.display = "";
+            disqus_button.addEventListener("click", disqus, false);
+
+            function disqus() {
+
+                  if (!disqus_loaded) {
+                        disqus_loaded = true;
+
+                        var e = document.createElement("script");
+                        e.type = "text/javascript";
+                        e.async = true;
+                        e.src = "//" + disqus_shortname + ".disqus.com/embed.js";
+                        (document.getElementsByTagName("head")[0] ||
+                              document.getElementsByTagName("body")[0])
+                        .appendChild(e);
+
+                        
+                        document.getElementById("show-comments").style.display = "none";
+                  }
+            }
+
+            
+            var hash = window.location.hash.substr(1);
+            if (hash.length > 8) {
+                  if (hash.substring(0, 8) == "comment-") {
+                        disqus();
+                  }
+            }
+
+            
+            if (/bot|google|baidu|bing|msn|duckduckgo|slurp|yandex/i.test(navigator.userAgent)) {
+                  disqus();
+            }
+      })();
+</script>
+    
+
+
+
+
+
+</main>
+    <footer>
+        <h6> | 
+            Rendered by <a href="https://gohugo.io" title="Hugo">Hugo</a> |
+            <a href="https://yyssjj33.github.io/index.xml">Subscribe</a></h6>
+    </footer>
+</div>
+<script src="https://yyssjj33.github.io/js/scripts.js"></script>
+</body>
+
+</html>
